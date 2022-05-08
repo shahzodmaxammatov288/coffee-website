@@ -1,0 +1,53 @@
+
+.SectionTitle {
+  padding: 2.2rem 0;
+}
+
+.SectionTitle__title__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SectionTitle__hr {
+  width: 100%;
+  height: 0;
+  border: 3px solid #A0583C;
+}
+
+.SectionTitle__title {
+  width: 100%;
+  color: var(--green);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 1px;
+  margin: 0 1.5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .SectionTitle {
+    padding: 1.5rem 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .SectionTitle__title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .SectionTitle {
+    padding: 1rem 0;
+  }
+  .SectionTitle__hr {
+    display: none;
+  }
+  .SectionTitle__title {
+    font-size: 22px;
+  }
+}

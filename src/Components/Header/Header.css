@@ -1,0 +1,118 @@
+.header {
+  height: 100vh;
+  background: url("../../images/Bg\ Image.jpg") no-repeat center center / cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.header::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(33, 33, 35, 0.8) -35.49%,
+    rgba(192, 130, 103, 0) 124.72%
+  );
+  background-color: #fff;
+  z-index: -1;
+}
+
+.header__nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem 3rem;
+}
+
+.logo,
+.nav-link {
+  font-size: 2rem;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+
+.logo:hover {
+  color: #eedbd3;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 1.07rem;
+}
+
+.header__title {
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.header__info {
+  color: var(--pink);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.header__btn {
+  min-width: 300px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--white);
+  background: linear-gradient(90deg, #a0583c 0%, #c08267 100%);
+  border-radius: 18px;
+  letter-spacing: 1px;
+  transition: 0.15s linear all;
+}
+
+.header__btn:hover {
+  transform: translateY(-4px);
+}
+
+.header__btn:active {
+  transform: scale(0.95) translateY(-2px);
+}
+
+@media screen and (max-width: 991px) {
+  .header__nav {
+    padding: 1rem 2rem;
+  }
+  .navbar {
+    background-color: #343a40;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__title {
+    font-size: 45px;
+  }
+  .header__btn {
+    min-width: 220px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header__title {
+    font-size: 32px;
+  }
+  .header__info {
+    font-size: 14px;
+  }
+}
