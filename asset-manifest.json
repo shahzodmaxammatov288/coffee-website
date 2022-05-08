@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/coffee-website/static/css/main.0f388e4b.css",
+    "main.js": "/coffee-website/static/js/main.e3a9c4ce.js",
+    "static/media/Bg Image.jpg": "/coffee-website/static/media/Bg Image.c9b0c7d7147010429123.jpg",
+    "static/media/Cappacino.png": "/coffee-website/static/media/Cappacino.88fa5d5dff07d60c2643.png",
+    "static/media/Latte.png": "/coffee-website/static/media/Latte.2a45e3f194ef995035e3.png",
+    "static/media/Cold Java.png": "/coffee-website/static/media/Cold Java.97ebd97482afc37684ab.png",
+    "static/media/Mocha.png": "/coffee-website/static/media/Mocha.bdc9a588e72b0381cadf.png",
+    "static/media/Stackbuks logo.png": "/coffee-website/static/media/Stackbuks logo.03313c8bea7d46c8eb2e.png",
+    "static/media/Dunkin Donuts.png": "/coffee-website/static/media/Dunkin Donuts.ca2863d029b8d6c4f671.png",
+    "static/media/apple logo.svg": "/coffee-website/static/media/apple logo.3434526b8f8ed6eb5390140684e89219.svg",
+    "index.html": "/coffee-website/index.html",
+    "main.0f388e4b.css.map": "/coffee-website/static/css/main.0f388e4b.css.map",
+    "main.e3a9c4ce.js.map": "/coffee-website/static/js/main.e3a9c4ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f388e4b.css",
+    "static/js/main.e3a9c4ce.js"
+  ]
+}
